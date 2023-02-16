@@ -1,5 +1,24 @@
 body {
-    background-color: #1E1E1E;
+    background:linear-gradient(black, #b8860b) ;
     color: white;
+    font-family:monospace;
     line-height:20px;
+}
+   
+p.side_text {
+    display: inline-block;
+    width: 0px;
+    vertical-align:middle;
+    font-size: 25px;
+}
+
+img.side_image {
+    display: inline-block;
+    vertical-align:middle;
+    height: 60px;
+}
+
+div.column{
+    /* background-color: #3b3b3b; */
+     border-radius: 5px;
 }
